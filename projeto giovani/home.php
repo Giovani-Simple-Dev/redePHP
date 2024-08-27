@@ -68,9 +68,43 @@ $conn->close();
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>PixNet</title>
+      <style>
+          :root {
+  --primary-color: black;
+  --secondary-color: white;
+  --tertiary-color: purple;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+.taskbar-container {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  height: 110px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.taskbar-container > img {
+  max-width: 55px;
+  max-height: 55px;
+  clip-path: circle(50%);
+}
+      </style>
   </head>
   <body>
     <div  class="taskbar-container">
