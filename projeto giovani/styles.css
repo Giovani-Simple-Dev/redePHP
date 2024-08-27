@@ -31,3 +31,78 @@ a {
   max-height: 55px;
   clip-path: circle(50%);
 }
+
+.taskbar-container > a {
+  display: flex;
+  gap: 8px;
+}
+/*-----------------------------*/
+
+.login-containerm, .cadastre-se-container {
+  max-height: 36px;
+  max-width: 258px;
+  padding: 10%;
+  margin: auto;
+  flex-direction: column;
+  display: flex;
+  gap: 24px;
+}
+
+.login-container, .cadastre-se-container > h1 {
+  justify-content: center;
+  display: flex;
+}
+
+.login-container, .cadastre-se-container > button {
+  padding: 8px;
+  border-radius: 25px;
+  background-color: var(--tertiary-color);
+  border: 1px solid white;
+}
+
+.login-container, .cadastre-se-container > input {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: var(--tertiary-color);
+  border: 1px solid white;
+}
+
+.login-container, .cadastre-se-container > a {
+  font-size: 10px;
+  justify-content: center;
+  display: flex;
+  margin: 0px;
+}
+
+/*-----------------------------*/
+
+.Perfil-stats-container{
+  border-bottom: 1px solid gray;
+}
+.Perfil-stats-container > header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.Perfil-stats-container header > img {
+  max-width: 150px;
+  max-height: 150px;
+  clip-path: circle(50%);
+  margin-right: 24px;
+}
+
+.Perfil-stats-container header > a {
+  margin-bottom: 48px;
+  margin-left: 16px;
+  font-size: larger;
+}
+
+.Perfil-stats-container header > span {
+  margin-top: 24px;
+}
+
+/*----------------------------------------*/
+
